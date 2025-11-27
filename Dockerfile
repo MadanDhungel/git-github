@@ -2,8 +2,8 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY requirements.txt /app/
-RUN pip install --no-cache-dir -r requirements.txt
+# Install Flask directly
+RUN pip install --no-cache-dir Flask==2.3.3
 
 COPY . /app
 
