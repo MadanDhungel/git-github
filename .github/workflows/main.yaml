@@ -26,7 +26,7 @@ jobs:
         run: echo "Testing !!!"
 
       - name: Build project
-        run: python app.py build
+        run: python app.py
 
       - name: Echo Username and Branch
         run: echo "Logging in as ${{ secrets.DOCKER_USERNAME }}""
