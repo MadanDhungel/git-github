@@ -104,7 +104,7 @@
       
       // Example: allow any non-empty credentials
       if (username && password) {
-        window.location.href = "templates/main.html"; // redirect to main.html
+        window.location.href = "/main.html"; // redirect to main.html (absolute path)
       } else {
         document.getElementById("error").textContent = "Please enter username and password!";
       }
