@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: your-domain.com  # Replace with your actual domain
+  - host: git.web.com
     http:
       paths:
       - path: /
